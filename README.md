@@ -8,6 +8,9 @@ There is a list of available doctor names you can configure in the config, as we
 
 You can open the bottle of oxy and in turn receive individual pills. With those you can configure them to apply specific amounts of health, armor or do nothing at all. The idea behind this is as an additional drug process to then integrate into your drug selling system, and/or offer a new way for players to get useful health or armor (or both in one) items.
 
+## Support & More
+[Click here to join our Discord](https://discord.gg/9EbY4nM5uu)
+
 ## Features
 - Set as many (or as little) Pharmacy locations you want
 - Create a list of as many (or as little) Doctor names 
@@ -32,6 +35,3 @@ You can open the bottle of oxy and in turn receive individual pills. With those 
 
 ## Preview
 [Streamable - Lation's Oxy Run](https://streamable.com/o4t7bz)
-
-## Join Discord
-[Click here to join our Discord](https://discord.gg/9EbY4nM5uu)
