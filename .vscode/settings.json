@@ -1,0 +1,12 @@
+{
+    "Lua.diagnostics.globals": [
+        "lib",
+        "sendToDiscord",
+        "ESX",
+        "result",
+        "spawnStartOxyRunPed",
+        "startOxyRunDialog",
+        "startOxyRunPed",
+        "cache"
+    ]
+}

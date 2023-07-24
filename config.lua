@@ -46,21 +46,31 @@ Config.AvailableDoctorListLocation = vec3(343.1629, -1399.8206, 32.5092) -- The 
 Config.EnableEffects = { -- When using an oxycontin, do you want effects enabled?
     enable = true, -- If so, make sure this is true. If you don't want any effects, set this to false
     health = {
-        enable = true,
-        amount = 200
+        enable = true, -- Do you want to apply health to the player when this drug is used? (True if yes, false if no)
+        amount = 200 -- If enable = true, how much health do you want to apply? (200 is full health)
     },
     armor = {
-        enable = false,
-        amount = 100
+        enable = true, -- Do you want to apply armor to the player when this drug is used? (True if yes, false if no)
+        amount = 100 -- If enable = true, how much armor do you want to apply? (100 is full armor)
+    },
+    speed = {
+        enable = true, -- Do you want to apply a speed "boost" to the player when this drug is used? (True if yes, false if no)
+        multiplier = 1.49, -- 1.49 is the maximum speed multiplier that works on FiveM, anything over 1.49 will not work and be set to normal speed
+        duration = 10 -- How long in seconds the speed multiplier should work for
+    },
+    screenEffect = {
+        enable = true, -- Do you want to apply a screen effect when this drug is used? (True if yes, false if no)
+        effect = 'glasses_pink', -- If enableScreenEffect is true, what effect do you want? (Huge list of options: https://forum.cfx.re/t/timecyclemodifier-index-and-name-list/1419389)
+        duration = 10000 -- If enable is true, how long in seconds do you want the effect to last?
     }
 }
 
 --[[ Webhook Configs ]]
-Config.EnableWebhook = false -- If you want Discord webhook logs, enable this with true. If not, disable it with false.
+Config.EnableWebhook = true -- If you want Discord webhook logs, enable this with true. If not, disable it with false.
 Config.WebhookLink = '' -- The webhook link for logs
-Config.WebhookName = 'ServerName' -- The Discord bot name for the webhook
-Config.WebhookAvatarIcon = 'https://www.elyrsps.net/images/shared/Lation/15.01.09-10.06.23.png' -- The webhook avatar image
-Config.WebhookFooterIcon = 'https://www.elyrsps.net/images/shared/Lation/15.01.09-10.06.23.png' -- The webhook footer image
+Config.WebhookName = 'Oxy' -- The Discord bot name for the webhook
+Config.WebhookAvatarIcon = '' -- The webhook avatar image
+Config.WebhookFooterIcon = '' -- The webhook footer image
 
 --[[ String Configs ]]
 Notifications = {
@@ -70,6 +80,7 @@ Notifications = {
     pharmacyDescription = 'You cancelled filling the script',
     pharmacyItemNotFound = 'There is nothing here for you - try again later',
     startOxyRunPedName = 'Aaron',
+    notEnoughMoney = 'Quit wasting my time bro, come back when you ain\'t broke',
     startOxyRunCancelDescription = 'Come back whenever you are ready',
     startOxyRunPart2CancelDescription = 'Quit messin\' with me man, I don\'t have time for this..',
     startOxyRunDidntHaveItemDescription = 'I got nothing for you man, leave me alone.',

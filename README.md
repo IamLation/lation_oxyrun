@@ -12,19 +12,22 @@ You can open the bottle of oxy and in turn receive individual pills. With those 
 [Click here to join our Discord](https://discord.gg/9EbY4nM5uu)
 
 ## Features
+- Supports ESX & QBCore
+- Highly detailed config file
 - Set as many (or as little) Pharmacy locations you want
 - Create a list of as many (or as little) Doctor names 
 - Enable/disable Discord webhook logs
-- Enable/disable health or armor effects upon use
+- Enable/disable health effects upon oxycontin use
+- Enable/disable armor effects upon oxycontin use
+- Enable/disable "speed boost" effects upon oxycontin use
+- Enable/disable screen effects upon oxycontin use
 - Set random pricing when purchasing a blank script, or a fixed price
 - Optimized 0.00 on use & idle
-- Only supports ESX / easy to convert
-- Highly detailed config file
 
 ## Dependencies
 - [ox_inventory](https://github.com/overextended/ox_inventory/releases)
 - [ox_lib](https://github.com/overextended/ox_lib/releases)
-- [ox_target](https://github.com/overextended/ox_target/releases)
+- [ox_target](https://github.com/overextended/ox_target/releases), [qb-target](https://github.com/qbcore-framework/qb-target) or [qtarget](https://github.com/overextended/ox_target/releases)
 
 ## Installation
 - Ensure you have all dependencies installed
