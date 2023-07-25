@@ -82,7 +82,7 @@ end)
 -- Creates the target option at a randomly selected Pharymacy from the Config
 qtarget:AddCircleZone('randomPharmacy', selectPharmacy, 1.0, {
     name = 'randomPharmacy1',
-    debugPoly = true,
+    debugPoly = false,
 }, {
     options = {
         {
@@ -132,7 +132,7 @@ end
 
 qtarget:AddCircleZone('availableDoctors', Config.AvailableDoctorListLocation, 1.0, {
     name = 'availableDoctors1',
-    debugPoly = true,
+    debugPoly = false,
 }, {
     options = {
         {
