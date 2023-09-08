@@ -9,8 +9,8 @@ There is a list of available doctor names you can configure in the config, as we
 You can open the bottle of oxy and in turn receive individual pills. With those you can configure them to apply specific amounts of health, armor or do nothing at all. The idea behind this is as an additional drug process to then integrate into your drug selling system, and/or offer a new way for players to get useful health or armor (or both in one) items.
 
 ## Support, Scripts & More
-[Click here to join our Discord](https://discord.gg/9EbY4nM5uu)
-[Click here to visit our Store](https://lationscripts.com/github)
+- [Click here to join our Discord](https://discord.gg/9EbY4nM5uu)
+- [Click here to visit our Store](https://lationscripts.com/github)
 
 ## Features
 - Supports ESX & QBCore
