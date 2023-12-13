@@ -1,4 +1,4 @@
-# Lation's Oxy Run
+# Lation's Oxy Run | Archived (No longer maintained)
 
 A unique take on oxy runs for FiveM. Start simply by visiting a sketchy blank prescription dealer (configurable to require an item, etc) and pay for a blank prescription you can fill in yourself. Take this script, fill it in with the proper information (yes, the information input matters), find a local pharmacy that is open (there is a list of pharmacy locations that come by default, the script selects one of those locations upon each restart, so that pharmacy locations are not the same everytime) and hand in your prescription paperwork for your prescribed bottle of oxy you totally need. Be careful though, on every restart the doctor name that will by accepted by the pharmacy is different each time (randomly selected from what you have in the DoctorNames list in the config). 
 
